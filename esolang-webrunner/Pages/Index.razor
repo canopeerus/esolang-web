@@ -1,5 +1,9 @@
-﻿@page "/"
+﻿@using esolang_webrunner.Components.EditorWindow;
+@using esolang_webrunner.Components.ConsoleWindow;
 
-<EditorComponent />
+@page "/"
+<div>
+    <EditorComponent language="brainfuck" />
 
-<ConsoleComponent />
+    <ConsoleComponent />
+</div>
