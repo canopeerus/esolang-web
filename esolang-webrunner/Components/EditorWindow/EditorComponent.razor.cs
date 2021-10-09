@@ -1,9 +1,11 @@
 ﻿using BlazorMonaco;
+using Microsoft.AspNetCore.Components;
 
 namespace esolang_webrunner.Components.EditorWindow
 {
     public partial class EditorComponent
-    { 
+    {
+        [Parameter]
         public string language { get; set; }
 
         public StandaloneEditorConstructionOptions getEditorConstructionOptions(MonacoEditor editor)

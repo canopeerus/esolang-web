@@ -9,6 +9,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.10" PrivateAssets="all" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
     <PackageReference Include="BlazorMonaco" Version="2.1.0" />
+    <PackageReference Include="Blazorise.Bootstrap" Version="0.9.4.6" />
+    <PackageReference Include="Blazorise.Icons.FontAwesome" Version="0.9.4.6" />
+    <PackageReference Include="Blazorise" Version="0.9.4.6" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,10 +19,15 @@
     <None Remove="BlazorMonaco" />
     <None Remove="Components\EditorWindow\" />
     <None Remove="Components\ConsoleWindow\" />
+    <None Remove="Components\Toolbar\" />
+    <None Remove="Blazorise.Bootstrap" />
+    <None Remove="Blazorise.Icons.FontAwesome" />
+    <None Remove="Blazorise" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Components\" />
     <Folder Include="Components\EditorWindow\" />
     <Folder Include="Components\ConsoleWindow\" />
+    <Folder Include="Components\Toolbar\" />
   </ItemGroup>
 </Project>

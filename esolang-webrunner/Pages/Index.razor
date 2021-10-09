@@ -1,9 +1,12 @@
 ﻿@using esolang_webrunner.Components.EditorWindow;
 @using esolang_webrunner.Components.ConsoleWindow;
+@using esolang_webrunner.Components.Toolbar;
 
 @page "/"
 <div>
-    <EditorComponent language="brainfuck" />
+    <ToolbarWidget isRunButtonEnabled=true/>
+
+    <EditorComponent />
 
     <ConsoleComponent />
 </div>
